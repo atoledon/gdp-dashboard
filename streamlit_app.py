@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import math
 from pathlib import Path
+import streamlit.components.v1 as components
 # ALEJANDRO TOLEDO
 # Set the title and favicon that appear in the Browser's tab bar.
 st.set_page_config(
