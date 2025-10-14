@@ -12,16 +12,7 @@ import streamlit.components.v1 as components
 #st.write("More testing...")
 
 somemessage="<h1 style='color: yellow'>Hey!</h1>"
-gtmHeadMessage="
-<!-- Google tag (gtag.js) -->
-<script async src='https://www.googletagmanager.com/gtag/js?id=G-DNK10D4V2R'></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-DNK10D4V2R');
-</script>"
+gtmHeadMessage=" <!-- Google tag (gtag.js) --> <script async src='https://www.googletagmanager.com/gtag/js?id=G-DNK10D4V2R'></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-DNK10D4V2R'); </script>"
 #components.html(somemessage)
 components.html(gtmHeadMessage)
 
