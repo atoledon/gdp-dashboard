@@ -3,6 +3,14 @@ import pandas as pd
 import math
 from pathlib import Path
 import streamlit.components.v1 as components
+
+
+
+st.title("Streamlit App Demo")
+st.write("Welcome to my app!")
+
+
+
 # ALEJANDRO TOLEDO
 # Set the title and favicon that appear in the Browser's tab bar.
 st.set_page_config(
@@ -150,3 +158,5 @@ for i, country in enumerate(selected_countries):
             delta=growth,
             delta_color=delta_color
         )
+
+
