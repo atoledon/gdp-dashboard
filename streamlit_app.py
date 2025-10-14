@@ -11,6 +11,8 @@ st.write("Welcome to my app!")
 st.write("Test continued...")
 st.write("More testing...")
 
+somemessage="""<h3>Hey!</h3>"""
+components.html(somemessage,height=0)
 
 
 # ALEJANDRO TOLEDO
