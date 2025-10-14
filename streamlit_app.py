@@ -6,7 +6,7 @@ import streamlit.components.v1 as components
 
 
 
-st.title("Streamlit App Demo")
+st.title("Streamlit App")
 st.write("Welcome to my app!")
 st.write("Test continued...")
 st.write("More testing...")
