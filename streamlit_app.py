@@ -6,14 +6,24 @@ import streamlit.components.v1 as components
 
 
 
-st.title("Streamlit App")
-st.write("Welcome to my app!")
-st.write("Test continued...")
-st.write("More testing...")
+#t.title("Streamlit App")
+#st.write("Welcome to my app!")
+#st.write("Test continued...")
+#st.write("More testing...")
 
-somemessage="""<h3>Hey!</h3>"""
-components.html(somemessage,height=10)
+somemessage="<h1 style='color: yellow'>Hey!</h1>"
+gtmHeadMessage="
+<!-- Google tag (gtag.js) -->
+<script async src='https://www.googletagmanager.com/gtag/js?id=G-DNK10D4V2R'></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-DNK10D4V2R');
+</script>"
+#components.html(somemessage)
+components.html(gtmHeadMessage)
 
 # ALEJANDRO TOLEDO
 # Set the title and favicon that appear in the Browser's tab bar.
